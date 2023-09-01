@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: android;
+    src: url('../desafios/de010/pacote-projeto-d010/android-site.txt') format('opentype');
+    font-weight: normal;
+}
+
+:root {
+    --cor0:#C4F1D9
+    --cor1:#99e7bf
+    --cor2:#068C32
+    --cor3:#59a265
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background-color:#C4F1D9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a.externo::after {
+    content: '\00A0\1F517';
+}
+
+header {
+    background-image: linear-gradient(to bottom, #C4F1D9,#035A20 );
+    min-height: 150px;
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+}
+
+header > h1 {
+    font-family:cursive;
+    margin-bottom: 20px;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.434);
+}
+
+header > p {
+    font-size: 1.2em;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    margin: auto;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.508);
+    
+}
+
+nav {
+    background-color: #035A20;
+    text-align: left;
+    padding: 10px;
+    box-shadow: 0 7px 7px rgba(0, 0, 0, 0.318);
+}
+
+nav > a {
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.795);
+    padding: 10px;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover {
+    background-color: #068C32;
+    color: #035A20;
+    
+}
+
+
+main {
+    background-color: white;
+    padding: 20px;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.416);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main p {
+    margin: 15px 0;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 1em;
+}
+
+main strong{
+    color: #068C32;
+    font-weight: bold;
+}
+
+main a {
+    text-decoration: none ;
+    color: #035a20;
+    font-weight: bold;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: #079d39;
+}
+
+main img {
+    width: 100%;
+}
+
+main img.pequena {
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+
+div.video {
+    background-color: #035A20;
+    margin: 0 -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 57%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+section > h2 {
+    color:#599463 ;
+    text-transform: uppercase;
+    font-family: android;
+}
+
+section > h3 {
+    color:#59a265 ;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    background-image:linear-gradient(to right, #99e7bf, transparent );
+    text-indent: 8px;
+}
+
+aside{
+    background-color:#a5f6be;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+}
+
+aside ul {
+    list-style-type: '\1F5F8';
+    list-style-position: inside;
+    columns: 2;
+
+}
+
+
+h4 {
+    background-color:#6cc27b;
+    padding: 10px;
+    color: white;
+    margin: -10px -10px 0 -10px;
+    border-radius: 10px 10px 0 0;
+}
+
+footer{
+    background-color:#068C32 ;
+    color: white;
+    text-align: center;
+    font-size: 0.8;
+    padding: 5px;
+}
+
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #6cc27b;
+}
+
+
